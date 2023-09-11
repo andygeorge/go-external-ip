@@ -1,16 +1,16 @@
-# Go External IP [![Go Workflow Status](https://github.com/glendc/go-external-ip/workflows/Go/badge.svg)](https://github.com/glendc/go-external-ip/actions?query=workflow%Go)&nbsp;[![GoDoc](https://godoc.org/github.com/glendc/go-external-ip?status.svg)](https://godoc.org/github.com/glendc/go-external-ip)&nbsp;[![Go Report Card](https://goreportcard.com/badge/github.com/glendc/go-external-ip)](https://goreportcard.com/report/github.com/glendc/go-external-ip)[![license](https://img.shields.io/github/license/glendc/go-external-ip.svg)](https://github.com/GlenDC/go-external-ip/blob/master/LICENSE.txt)
+# Go External IP [![Go Workflow Status](https://github.com/andygeorge/go-external-ip/workflows/Go/badge.svg)](https://github.com/andygeorge/go-external-ip/actions?query=workflow%Go)&nbsp;[![GoDoc](https://godoc.org/github.com/andygeorge/go-external-ip?status.svg)](https://godoc.org/github.com/andygeorge/go-external-ip)&nbsp;[![Go Report Card](https://goreportcard.com/badge/github.com/andygeorge/go-external-ip)](https://goreportcard.com/report/github.com/andygeorge/go-external-ip)[![license](https://img.shields.io/github/license/andygeorge/go-external-ip.svg)](https://github.com/andygeorge/go-external-ip/blob/master/LICENSE.txt)
 
 A Golang library to get your external ip from multiple services.
 
 ## TODO
 
-+ Design/Implement STUNSource, more info:
-    + [RFC 3489](https://tools.ietf.org/html/rfc3489);
-    + [RFC 5389](https://tools.ietf.org/html/rfc5389);
+- Design/Implement STUNSource, more info:
+  - [RFC 3489](https://tools.ietf.org/html/rfc3489);
+  - [RFC 5389](https://tools.ietf.org/html/rfc5389);
 
 ## Docs
 
-https://godoc.org/github.com/GlenDC/go-external-ip
+https://godoc.org/github.com/andygeorge/go-external-ip
 
 ## Usage
 
@@ -21,7 +21,7 @@ package main
 
 import (
     "fmt"
-    externalip "github.com/glendc/go-external-ip"
+    externalip "github.com/andygeorge/go-external-ip"
 )
 
 func main() {
@@ -53,7 +53,7 @@ which can be used to get your external IP, directly from your terminal.
 ### install
 
 ```
-$ go install github.com/glendc/go-external-ip/cmd/exip
+$ go install github.com/andygeorge/go-external-ip/cmd/exip
 ```
 
 ### usage
@@ -75,4 +75,4 @@ Flags:
   -v    log errors to STDERR, when defined
 ```
 
-[docs]: https://pkg.go.dev/github.com/GlenDC/go-external-ip
+[docs]: https://pkg.go.dev/github.com/andygeorge/go-external-ip

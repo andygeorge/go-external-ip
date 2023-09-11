@@ -1,3 +1,3 @@
-module github.com/glendc/go-external-ip
+module github.com/andygeorge/go-external-ip
 
-go 1.13
+go 1.20

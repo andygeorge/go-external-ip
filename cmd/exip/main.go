@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	externalip "github.com/glendc/go-external-ip"
+	externalip "github.com/andygeorge/go-external-ip"
 )
 
 // CLI Flags

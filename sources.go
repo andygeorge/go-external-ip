@@ -48,7 +48,7 @@ func (s *HTTPSource) IP(timeout time.Duration, logger *log.Logger, protocol uint
 		logger.Printf("[ERROR] could not create a GET Request for %q: %v\n", s.url, err)
 		return nil, err
 	}
-	req.Header.Set("User-Agent", "go-external-ip (github.com/glendc/go-external-ip)")
+	req.Header.Set("User-Agent", "go-external-ip (github.com/andygeorge/go-external-ip)")
 
 	// transport to avoid goroutine leak
 	tr := &http.Transport{

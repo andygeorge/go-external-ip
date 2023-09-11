@@ -53,7 +53,7 @@ which can be used to get your external IP, directly from your terminal.
 ### install
 
 ```
-$ go install github.com/andygeorge/go-external-ip/cmd/exip
+$ go install github.com/andygeorge/go-external-ip/cmd/exip@latest
 ```
 
 ### usage
